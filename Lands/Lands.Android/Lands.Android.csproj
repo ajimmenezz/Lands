@@ -83,6 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\twittlogo.png" />
+    <AndroidResource Include="Resources\drawable\instalogo.png" />
+    <AndroidResource Include="Resources\drawable\facelogo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
@@ -92,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lands\Lands.csproj">
-      <Project>{441B5864-B590-41D5-A21C-358DD01C071F}</Project>
+      <Project>{EAA0331A-98ED-49EC-B38E-3499157D7105}</Project>
       <Name>Lands</Name>
     </ProjectReference>
   </ItemGroup>
