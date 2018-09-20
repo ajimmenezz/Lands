@@ -153,14 +153,20 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Lands\Lands.csproj">
-      <Project>{EAA0331A-98ED-49EC-B38E-3499157D7105}</Project>
+      <Project>{441B5864-B590-41D5-A21C-358DD01C071F}</Project>
       <Name>Lands</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\onu.png" />
-    <BundleResource Include="Resources\twittlogo.png" />
-    <BundleResource Include="Resources\instalogo.png" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\facelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\instalogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\twittlogo.png" />
   </ItemGroup>
 </Project>
