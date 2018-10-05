@@ -21,7 +21,7 @@
             get { return this.lands; }
             set { SetValue(ref this.lands, value); }
         }
-        #region
+        #endregion
 
         #region Constructors
         public LandsViewModel()
@@ -39,7 +39,7 @@
                 "/rest",
                 "/v2/all");
 
-            if(!response.IsSuccess)
+            if (!response.IsSuccess)
             {
                 await Application.Current.MainPage.DisplayAlert(
                     "Error",
